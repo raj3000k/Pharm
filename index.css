@@ -4,7 +4,7 @@
 }
 .HomePage{
     display: flex;
-    background: #864A9B;
+    background: #00337C;
     width: 100%;
     margin: 0 auto;
     height: 60px;
@@ -31,7 +31,7 @@
     margin-right: 4px;
     font-size: 17px;
     border: none;
-    background: rgb(217 94 196);
+    background: rgb(183, 82, 216);
     border-radius: 5px;
     color: white;
     font-weight: bold;
