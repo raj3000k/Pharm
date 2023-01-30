@@ -5,7 +5,7 @@ document.querySelector('table tbody').addEventListener('click', (event)=>{
 });
 
 function deleteRowById(id) {
-    fetch('http://localhost:5000/delete/' + id, {
+    fetch('https://main--medez-chakravyuh-aavartan-vigyaan-23.netlify.app/client/admin/delete/' + id, {
         method: 'DELETE',
     })
     .then(response => response.json())

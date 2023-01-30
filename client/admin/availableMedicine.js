@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded' , ()=>{
-    fetch('http://localhost:5000/client/admin/availableMedicine')
+    fetch('https://main--medez-chakravyuh-aavartan-vigyaan-23.netlify.app/client/admin/availableMedicine')
     .then((res) => res.json())
     .then((data) => {
        

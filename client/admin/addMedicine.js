@@ -14,7 +14,7 @@ document.querySelector('.addMedicineButton').addEventListener('click',
             let msg =  document.querySelector('.successAddDB');
             msg.innerHTML = 'Successfully added';
             msg.style.color = 'green';
-            fetch('http://localhost:5000/insert', {
+            fetch('https://main--medez-chakravyuh-aavartan-vigyaan-23.netlify.app/insert', {
                 headers: {
                     'Content-type': 'application/json',
                 },
